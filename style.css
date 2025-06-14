@@ -1,0 +1,140 @@
+/* Global Style */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  position: relative;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 4px #000;
+}
+
+.logo-bso {
+  width: 120px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.logo-bso:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Section Style */
+.section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Service Cards */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Image Center */
+.foto-kecil {
+  width: 80%;
+  max-width: 500px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* WhatsApp Button */
+.whatsapp-link {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-link:hover {
+  background-color: #128C7E;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 40px;
+}
